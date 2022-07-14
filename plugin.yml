@@ -1,0 +1,55 @@
+---
+name: PlayerParticleUI
+version: 1.0.7
+main: J0k3rrWild\PlayerParticle\Main
+api: 4.0.0
+author: J0k3rrWild
+website: https://github.com/J0k3rrWild
+description: "RemakeUI by Angga7Togk"
+
+commands:
+  pui:
+    description: "Open The Particle Menu"
+    permission: particle.menu
+permissions:
+ particle.menu:
+  default: true
+ particle.portal:
+  default: op
+ particle.flame:
+  default: op
+ particle.explode:
+  default: op
+ particle.entityflame:
+  default: op
+ particle.water:
+  default: op
+ particle.waterdrip:
+  default: op
+ particle.lava:
+  default: op
+ particle.lavadrip:
+  default: op
+ particle.heart:
+  default: op
+ particle.angryvillager:
+  default: op
+ particle.happyvillager:
+  default: op
+ particle.critical:
+  default: op
+ particle.enchanttable:
+  default: op
+ particle.ink:
+  default: op
+ particle.spore:
+  default: op
+ particle.smoke:
+  default: op
+ particle.snowball:
+  default: op
+ particle.redstone:
+  default: op
+ particle.floatingtxt:
+  default: op
+...
