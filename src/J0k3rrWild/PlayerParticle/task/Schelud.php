@@ -2,17 +2,19 @@
 
 namespace J0k3rrWild\PlayerParticle\task; 
 
-use pocketmine\scheduler\Task;
-use pocketmine\world\particle\FloatingTextParticle; 
 use pocketmine\level\Level;
 use pocketmine\math\Vector3;
+use pocketmine\player\Player;
+use pocketmine\scheduler\Task;
 use J0k3rrWild\PlayerParticle\Main;
 use J0k3rrWild\PlayerParticle\task\ScheludRemove;
+use pocketmine\world\particle\FloatingTextParticle; 
 
 
 class Schelud extends Task{
 
-
+    public $plugin;
+    public $player;
     public function __construct(Main $plugin, $player){ 
        $this->plugin = $plugin; 
        $this->player = $player; 

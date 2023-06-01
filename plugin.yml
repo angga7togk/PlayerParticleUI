@@ -2,7 +2,9 @@
 name: PlayerParticleUI
 version: 1.0.7
 main: J0k3rrWild\PlayerParticle\Main
-api: 4.0.0
+api:
+- 4.0.0
+- 5.0.0
 author: J0k3rrWild
 website: https://github.com/J0k3rrWild
 description: "RemakeUI by Angga7Togk"

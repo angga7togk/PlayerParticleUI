@@ -9,7 +9,9 @@ use pocketmine\level\particle\FloatingTextParticle;
 
 class ScheludRemove extends Task{
 
-
+    public $vect;
+    public $part;
+    public $level;
     public function __construct(Schelud $plugin, $part, $vect, $level){ 
        $this->vect = $vect;
        $this->part = $part;
