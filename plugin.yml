@@ -1,6 +1,6 @@
 ---
 name: PlayerParticleUI
-version: 1.0.7
+version: 1.1.0
 main: J0k3rrWild\PlayerParticle\Main
 api:
 - 4.0.0
